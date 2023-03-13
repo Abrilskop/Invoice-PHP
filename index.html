@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invoice</title>
+	<style>
+		.invoice {
+			padding: 30px;
+			border: 1px solid #ccc;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+			max-width: 800px;
+			margin: 0 auto;
+			font-size: 16px;
+			line-height: 24px;
+			font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+			color: #555;
+		}
+		.invoice .invoice-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 50px;
+		}
+		.invoice .invoice-header .invoice-logo {
+			max-height: 60px;
+		}
+		.invoice .invoice-header .invoice-details {
+			text-align: right;
+		}
+		.invoice .invoice-header .invoice-details .invoice-id {
+			font-weight: bold;
+		}
+		.invoice .invoice-items {
+			margin-bottom: 50px;
+		}
+		.invoice .invoice-items .item {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 10px;
+		}
+		.invoice .invoice-items .item .item-name {
+			flex-grow: 1;
+		}
+		.invoice .invoice-items .item .item-price {
+			text-align: right;
+			flex-basis: 100px;
+		}
+		.invoice .invoice-total {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.invoice .invoice-total .total-label {
+			flex-grow: 1;
+		}
+		.invoice .invoice-total .total-amount {
+			flex-basis: 100px;
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="invoice">
+		<div class="invoice-header">
+			<img src="https://via.placeholder.com/150x50.png?text=Invoice+Logo" alt="Invoice Logo" class="invoice-logo">
+			<div class="invoice-details">
+				<div class="invoice-id">Invoice #123456</div>
+				<div class="invoice-date">Date: March 13, 2023</div>
+			</div>
+		</div>
+    <div class="invoice">
+
+    </div>
+    <div class="invoice">
+      
+
+    </div>
+    <div class="invoice">
+
+    </div>
+		<div class="invoice-items">
+			<div class="item">
+				<div class="item-name">Descripcion de cLIENTE</div>
+				<div class="item-price">$100.00</div>
+			</div>
+			<div class="item">
+				<div class="item-name">Item 2</div>
+				<div class="item-price">$200.00</div>
+			</div>
+			<div class="item">
+				<div class="item-name">Item 3</div>
+				<div class="item-price">$300.00</div>
+			</div>
+			<div class="item">
+				<div class="item-name">Item 4</div>
+				<div class="item-price">$400.00</div>
+			</div>
+		</div>
+		<div class="invoice-total">
+			<div class="total-label">Total:</div>
+			<div class="total-amount">$1,
+    
